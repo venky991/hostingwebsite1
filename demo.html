@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Chrome</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            #sec{
+              
+              
+               
+                text-align:center;
+               margin-top: 15%;
+               background-color: antiquewhite;
+               display: grid;
+               position:absolute;
+               margin-left: 30%;
+               width: 35%;
+
+               
+                
+               
+            }
+        </style>
+        
+        <body>
+            <section id="sec">
+                <br>
+            <form action="demo1.html" method="post">
+            <label for="firstname" id="firstname" style="margin-left:4%;">FIRST NAME : </label>
+            <input type="text" id="F-name" name="fname" required/>
+            <br><br>
+            <label for="Lastname" id="lastname" style="margin-left:4%;">LAST NAME : </label>
+            <input type="text" id="L-name" name="lname" required/>
+            <br><br>
+            <label for="date" id="dob1">DATE OF BIRTH :&nbsp; </label>
+            <input type="date" id="dob" name="dateofbirth" required>
+            <br><br>&nbsp;
+            <label for="file" id="upfile"style="margin-left:20%;">UPLOAD FILE : </label>
+            <input type="file" id="upload" name="file-upload" required>
+            <br><br>
+            <label for="DROP" id="file">COUNTRIES : </label>
+            <select id="dropdown" required>
+                <option value=""></option>
+                <option value="INDIA">INDIA</option>
+                <option value="AUSTRALIA">AUSTRALIA</option>
+                <option value="SOUTH AFRICA">SOUTH AFRICA</option>
+
+            </select>
+            <br><br>
+            <button id="but" name="but" title="Click! here to submit"style="width: 40%;color:aliceblue;background-color:orange;font-size:medium;">SUBMIT</button>
+            <br><br>
+           
+        </form>
+    </section>
+        </body>
+    </head>
+</html>
